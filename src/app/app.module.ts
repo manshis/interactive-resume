@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { TopSectionComponent } from './top-section/top-section.component';
 import { ProfileComponent } from './profile/profile.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SideMenuComponent } from './side-menu/side-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopSectionComponent,
-    ProfileComponent
+    ProfileComponent,
+    SideMenuComponent
   ],
   imports: [
     BrowserModule,

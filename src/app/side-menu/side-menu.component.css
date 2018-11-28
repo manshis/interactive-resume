@@ -1,0 +1,10 @@
+.side-menu {
+    top: 15%;
+    left: 84%;
+    position: fixed;
+}
+
+.menu-item {
+    width: 120px;
+    height: 80px;
+}
