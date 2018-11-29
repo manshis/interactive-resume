@@ -1,27 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     margin: 0px;
-    font: 400 15px/1.8 "Roboto", sans-serif;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .heading {
     margin-left: 50px;
 }
-.line{
-    height:0px;
-    width:1px;
-    border-bottom:1px solid rgb(245, 247, 250);;
-    
-    -webkit-animation: increase 3s;
-    -moz-animation:    increase 3s; 
-    -o-animation:      increase 3s; 
-    animation:         increase 3s; 
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite
-}
 
-@keyframes increase {
-    100% {width: 100%;}
-}
+
 
 
