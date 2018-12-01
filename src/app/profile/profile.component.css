@@ -1,8 +1,59 @@
 .profile {
-    height: 723px;
-    background-color: rgb(52, 152, 219);
-    font-weight: 100;
-    font-size: 36px;
-    color: rgb(245, 247, 250);
+    height: 100%;
+    background-image: url("../../assets/background.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.profile-data {
+    color: #ffffffbd;
+    position: absolute;
+        top: 140vh;
+        left:0;
+        right:0;
+    line-height: 22px;
+    font-family: 'RidleyGrotesk-Medium';
+    font-size: 17px;
 
 }
+
+.about-me {
+    margin-left: 40px;
+}
+
+.details {
+    margin-right: 40px;
+    display: inline-block;
+}
+
+
+.photo {
+    margin-left: 74px;
+}
+  
+.inline-photo {
+    border: 1em solid #fff;
+    border-bottom: 4em solid #fff;
+    border-radius: .25em;
+    box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+    margin: 2em auto;
+    max-width: 600px;
+    width: 90%;
+  
+    will-change: transform, opacity;
+
+    animation: animate-pining 2s ease-in-out alternate infinite;
+}
+
+@keyframes animate-pining {
+    0% {
+        transform: rotateZ(5deg);
+    }
+    100% {
+        transform: rotateZ(-5deg);
+    }
+}
+

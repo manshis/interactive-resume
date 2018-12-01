@@ -1,11 +1,30 @@
-<div class="profile">
-  <div class="heading">
-      Profile
-      <div class ="line"></div>
-  </div>
-  <mat-grid-list cols="3" rowHeight="100px">
-      <mat-grid-tile></mat-grid-tile>
-      <mat-grid-tile></mat-grid-tile>
-      <mat-grid-tile></mat-grid-tile>
-  </mat-grid-list>
+<div class="profile" >
+    <div class="heading">
+        Profile
+        <div class="line"></div>
+    </div>
+    <mat-grid-list cols="3" rowHeight="300px" class="profile-data">
+        <mat-grid-tile class="about-me">
+            I am a web developer who lives in Pune, India.
+            In my career, I have worked on many different areas
+            of web development from back end programming (PHP, Perl, Node)
+            to front end engineering (HTML, CSS, and jQuery/Javascript).
+
+            I’m extremely passionate about web development and design.
+            Aside from web development, I enjoy spending my time with
+            my husband. I also like doodling, reading books, and doing
+            creative stuff in day to day life.
+        </mat-grid-tile>
+        <mat-grid-tile class="photo">
+                    <img class="inline-photo" src="../../assets/mansi.jpg" style="width:65%">
+        </mat-grid-tile>
+        <mat-grid-tile class="details">
+            <div >
+                <div><b>Name</b>: Mansh Sharma</div>
+                <div><b>Age</b>: 28 years</div>
+                <div><b>Location</b>: Pune, India</div>
+            </div>
+
+        </mat-grid-tile>
+    </mat-grid-list>
 </div>

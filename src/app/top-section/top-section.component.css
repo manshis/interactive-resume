@@ -22,7 +22,7 @@
     animation: no-transform 2s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
     opacity: 0;
     transform: translateY(-4rem) scale(.8);
-  }
+}
 
 
 @keyframes no-transform {
@@ -36,10 +36,10 @@
     position: absolute;
         left: 0;
         right: 0;
-        top : 30vh;
+        top : 20vh;
     text-align: center;
     padding: 20px;
-    background-color: black;
+    background-color: #221e1e;
 }
 
 .space {
