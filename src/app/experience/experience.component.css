@@ -1,0 +1,8 @@
+.experience {
+    height: 100%;
+    background-image: url("../../assets/experience.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

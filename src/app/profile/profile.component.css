@@ -14,24 +14,22 @@
         top: 140vh;
         left:0;
         right:0;
-    line-height: 22px;
-    font-family: 'RidleyGrotesk-Medium';
-    font-size: 17px;
-
+    line-height: 33px;
+    font-size: 20px;
 }
 
 .about-me {
-    margin-left: 40px;
+    margin-left: 10%;
 }
 
 .details {
-    margin-right: 40px;
     display: inline-block;
+    margin-top: 10%
 }
 
 
 .photo {
-    margin-left: 74px;
+    text-align: center;
 }
   
 .inline-photo {

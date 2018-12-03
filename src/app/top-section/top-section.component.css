@@ -1,6 +1,6 @@
 .parallax { 
     /* The image used */
-    background-image: url("../../assets/top.jpg");
+    background-image: url("../../assets/home.jpg");
 
     /* Set a specific height */
     height: 100%;
@@ -10,12 +10,6 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.animate-fade-in {
-    opacity: 0;
-    transform: translateY(-4rem);
-    animation: no-transform 2s .5s cubic-bezier(0, 0.5, 0, 1)  forwards;
 }
 
 .animate-pop-in {
@@ -34,12 +28,13 @@
 
 .name {
     position: absolute;
-        left: 0;
-        right: 0;
+        left: 9%;
+        right: 50%;
         top : 20vh;
     text-align: center;
-    padding: 20px;
-    background-color: #221e1e;
+    color: white;
+    border: solid;
+    padding: 0px 11px;
 }
 
 .space {
@@ -49,13 +44,11 @@
 .salu {
     font-size: 60px;
     animation-delay: .5s;
-    color: white;
 }
 
 .intro {
     font-size: 20px;
     animation-delay: 1s;
-    color: white
 }
 
 span.nobr {

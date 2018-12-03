@@ -1,0 +1,17 @@
+.contact1 {
+    height: 90%;
+    background-image: url("../../assets/contact1.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact {
+    height: 50%;
+    background-image: url("../../assets/contact.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

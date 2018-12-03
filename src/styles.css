@@ -10,11 +10,17 @@ body {
 .heading {
     text-align: center;
     position: absolute;
-        top: 115vh;
-        left: 0;
-        right: 0;
-    font-size: 55px;
+        left: 41%;
+        right: 41%;
+    font-size: 45px;
     color: white;
+    border: solid;
+    padding: 0px 11px;
+    margin-top: 80px;
+}
+
+.row {
+    margin-right: 0px;
 }
 
 

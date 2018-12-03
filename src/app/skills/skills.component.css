@@ -1,0 +1,19 @@
+.skills {
+    height: 100%;
+    background-image: url("../../assets/skills.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skill-data {
+    color: #ffffffbd;
+    position: absolute;
+        top: 240vh;
+        left:20%;
+        right:20%;
+    line-height: 16px;
+    font-size: 16px;
+    text-shadow: 5px 10px 10px black;
+}
