@@ -1,0 +1,8 @@
+.education {
+  height: 100%;
+  background-image: url("../../assets/education.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

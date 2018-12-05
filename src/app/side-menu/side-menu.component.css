@@ -1,10 +1,20 @@
 .side-menu {
-    top: 15%;
-    left: 84%;
+    font-size: 22px;
+    line-height: 50px;
+    position: absolute;
+      top: 180px;
+      right: 30px;
+    text-shadow: 5px 8px 10px grey;
+    color: white;
+    transition: top 2s ease-out;
     position: fixed;
-}
-
-.menu-item {
-    width: 120px;
-    height: 80px;
-}
+  }
+  
+  .menu-item {
+      transition: all 1s ease-out;
+  }
+  
+  .menu-item:hover {
+     transform: translateX(-40px);
+  }
+  
