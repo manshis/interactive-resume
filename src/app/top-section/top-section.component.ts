@@ -14,8 +14,8 @@ export class TopSectionComponent implements OnInit {
 
   scrollDown() {
     window.scroll({
-      top: 720, 
-      left: 0, 
+      top: 1000,
+      left: 0,
       behavior: 'smooth'
     });
   }

@@ -12,4 +12,15 @@ export class SideMenuComponent implements OnInit {
   ngOnInit() {
   }
 
+  scrollDown() {
+    window.scroll({
+      top: 720,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
+
+  moveTo() {
+    // To do
+  }
 }
