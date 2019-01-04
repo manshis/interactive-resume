@@ -6,3 +6,54 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.wrapper {
+    margin: 50px 50px;
+    position: absolute;
+        top: 320vh;
+        left:20%;
+        right:20%;
+  }
+  
+  .cabinet {
+    background-color: white;
+    font-family: Raleway, sans-serif;
+    width: 428px;
+    height: 162px;
+    color: rgb(185, 185, 185);
+    display: inline-block;
+    margin: 44px;
+    box-shadow: 5px 8px 10px grey;
+    border-radius: 10px;
+    color: #131411;
+    text-align: center;
+    padding: 32px;
+    transition: height .5s ease;
+  }
+  
+  .divider {
+    border-bottom: 1px solid;
+  }
+  
+  .exp {
+     text-shadow: 5px 8px 10px grey;
+    font-size: 40px;
+    margin: 0 8px 0 0;
+    font-weight: 700;
+  }
+  
+  
+  .cabinet:hover {
+    height: 250px;
+
+  }
+
+  .cabinet:hover .details {
+    opacity: 1;
+  }
+
+  .details {
+    opacity: 0;
+    transition: opacity  1s ease;
+  }
