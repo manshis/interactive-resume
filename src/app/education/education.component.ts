@@ -9,7 +9,16 @@ export class EducationComponent implements OnInit {
 
   constructor() { }
 
+ flipped1 = false;
+ flipped2 = false;
+
   ngOnInit() {
   }
 
+  onflip1() {
+    this.flipped1 = !this.flipped1;
+  }
+  onflip2() {
+    this.flipped2 = !this.flipped2;
+  }
 }
