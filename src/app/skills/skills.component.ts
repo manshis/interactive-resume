@@ -10,17 +10,18 @@ export class SkillsComponent implements OnInit {
   constructor() { }
 
   skills = [
-    {name: 'Perl', rating: 5},
-    {name: 'PHP', rating: 4},
-    {name: 'Microsoft SQL Server', rating: 3},
-    {name: 'Oracle DB', rating: 3},
-    {name: 'Maria DB', rating: 5},
-    {name: 'Javascript', rating: 4},
-    {name: 'CSS', rating: 4},
-    {name: 'HTML', rating: 5},
-    {name: 'Bootstrap', rating: 5},
-    {name: 'Angular', rating: 5},
-  ]
+    {name: 'Angular',  rating: [1, 1, 1, 1, 1]},
+    {name: 'Bootstrap',  rating: [1, 1, 1, 1, 1]},
+    {name: 'HTML',  rating: [1, 1, 1, 1, 1]},
+    {name: 'CSS', rating: [1, 1, 1, 1, 0]},
+    {name: 'Javascript', rating: [1, 1, 1, 1, 0]},
+    {name: 'Perl', rating: [1, 1, 1, 1, 1]},
+    {name: 'PHP', rating: [1, 1, 1, 1, 0]},
+    {name: 'Microsoft SQL Server', rating: [1, 1, 1, 0, 0]},
+    {name: 'Oracle DB', rating: [1, 1, 1, 0, 0]},
+    {name: 'Maria DB', rating: [1, 1, 1, 1, 1]},
+  ];
+
   ngOnInit() {
   }
 

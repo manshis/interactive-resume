@@ -4,14 +4,13 @@
   </div>
   <div class="wrapper">
     <div [ngClass]="{'cabinet': true, 'flipped' : flipped1}" (click)="onflip1()">
-        <div class="front">Vira College of Engineering
-          Click to flip</div>
-        <div class="back"><p>2008 - 2012</p>Bachelor of Technology in Electronics & communication</div>
+        <div class="front"><p>Vira College of Engineering</p>
+          <span> Click to see more .. </span></div>
+          <div class="back"><p>2008 - 2012</p>Bachelor of Technology in Electronics & communication</div>
     </div>
     <div [ngClass]="{'cabinet': true, 'flipped' : flipped2}" (click)="onflip2()">
-        <div class="front"><p>Modern School, Noida</p>Click to flip</div>
+        <div class="front"><p>Modern School, Noida</p><span> Click to see more .. </span></div>
         <div class="back"><p>1994 - 2008</p>Secured 87.6% in 10th Standard and 66% in 12th Standard (PCM)</div>
     </div>
-     
   </div>
 </div>

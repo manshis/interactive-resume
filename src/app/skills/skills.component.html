@@ -6,7 +6,14 @@
       <table class="table table-striped">
         <tr *ngFor="let skill of skills">
           <td>{{skill.name}}</td>
-          <td>{{skill.rating}}</td>
+          <td>
+            <span *ngFor="let x of skill.rating">
+                <i *ngIf="x" class="fas fa-star"></i>
+                <i *ngIf="!x"class="far fa-star"></i>
+                <i *ngIf="x === .5"class="fas fa-star-half-alt"></i>
+            </span>
+              
+          </td>
         </tr>
       </table>
     </div>

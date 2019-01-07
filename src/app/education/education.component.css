@@ -7,8 +7,9 @@
   background-size: cover;
 }
 
+
 .wrapper {
-  margin: 50px 50px;
+  margin: 50px 115px;
   position: absolute;
       top: 430vh;
       left:20%;
@@ -21,6 +22,8 @@
   transform-style: preserve-3d;
   transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   cursor: pointer;
+  display: inline-block;
+  margin: 44px;
 }
 
 .cabinet div {
@@ -31,9 +34,6 @@
   backface-visibility: hidden;
   border-radius: 10px;
   background: #fff;
-  display: -ms-flexbox;
-  display: box;
-  display: flex;
   -o-box-pack: center;
   justify-content: center;
   -o-box-align: center;
@@ -41,6 +41,8 @@
   font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #47525d;
+  display: inline-grid;
+  padding: 15px;
 }
 
 .cabinet .back {
@@ -50,4 +52,16 @@
 .cabinet.flipped {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
+}
+
+.cabinet p {
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+span {
+  text-align: right;
+  font-size: 10px;
 }
