@@ -1,5 +1,5 @@
 .contact1 {
-    height: 90%;
+    height: 85%;
     background-image: url("../../assets/contact1.jpg");
     background-attachment: fixed;
     background-position: top;
@@ -17,10 +17,10 @@
 }
 
 .wrapper {
-    margin: 50px 50px;
+    margin: 5%;
     position: absolute;
         top: 530vh;
-        left: 20%;
+        left: 15%;
     text-align: center;
   }
 

@@ -5,30 +5,31 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: row;
 }
 
 
 .wrapper {
-    margin: 50px 50px;
+    margin-top: 5%;
     position: absolute;
         top: 330vh;
         left:20%;
-        right:20%;
   }
   
   .cabinet {
     background-color: white;
     font-family: Raleway, sans-serif;
-    width: 428px;
+    width: 37%;
     height: 162px;
     color: rgb(185, 185, 185);
     display: inline-block;
-    margin: 44px;
+    margin: 1%;
     box-shadow: 5px 8px 10px grey;
     border-radius: 10px;
     color: #131411;
     text-align: center;
-    padding: 32px;
+    padding: 1%;
     transition: height .5s ease;
   }
   
